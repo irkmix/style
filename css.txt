@@ -1,0 +1,437 @@
+/*Футер*/
+.sg-link
+{
+	cursor: pointer;
+	text-decoration: none;
+}
+.Header-controls,.Hero h2,.sg-link
+{
+	font-weight: 700;
+}
+.page-footer
+{
+	background: #e7edf3;
+	width: 100%;
+}
+.page-footer__content
+{
+	display: flex;
+	display: -ms-flexbox;
+	display: -webkit-box;
+	display: -webkit-flex;
+	flex-wrap: wrap;
+	margin: 0 auto;
+	max-width: 990px;
+	ms-flex-wrap: wrap;
+	padding: 16px 12px;
+	position: relative;
+	webkit-flex-wrap: wrap;
+}
+.page-footer-info
+{
+	align-items: flex-end;
+	display: flex;
+	display: -ms-flexbox;
+	display: -webkit-box;
+	display: -webkit-flex;
+	flex-direction: column;
+	ms-flex-align: end;
+	ms-flex-direction: column;
+	webkit-align-items: flex-end;
+	webkit-box-align: end;
+	webkit-box-direction: normal;
+	webkit-box-orient: vertical;
+	webkit-flex-direction: column;
+}
+.sg-breadcrumb-list,.sg-breadcrumb-list__element
+{
+	display: inline-block;
+}
+.sg-breadcrumb-list
+{
+	color: #434e66;
+	line-height: 1.5rem;
+	list-style: none;
+	margin: 0;
+	min-height: 1.5rem;
+	overflow: visible;
+	padding: 0;
+	position: relative;
+	text-overflow: ellipsis;
+}
+.sg-link
+{
+	color: #57b2f8;
+	line-height: .99rem;
+	min-height: 0;
+}
+.sg-link--small
+{
+	font-size: .875rem;
+	line-height: 1.125rem;
+}
+.sg-link--gray
+{
+	color: #434e66;
+}
+.sg-link--emphasised
+{
+	letter-spacing: .01rem;
+	text-transform: uppercase;
+}
+.sg-text
+{
+	color: #020a1b;
+	font-family: ProximaNova,Helvetica,Arial,sans-serif;
+	font-size: 1rem;
+	line-height: 1.5rem;
+}
+.sg-text--obscure-dense
+{
+	font-size: .75rem;
+	line-height: .75rem;
+}
+.sg-text--gray
+{
+	color: #434e66;
+}
+/*Главная*/
+@media (min-width: 768px){.DiscussionListItem-content {
+padding-left: 80px;
+padding-right: 80px;
+padding-top: 10px;
+border-radius: 8px;
+padding-bottom: 10px;
+border:1px solid #dbdfe6!important;
+-webkit-box-shadow: 0px 8px 24px 3px rgba(84,102,134,0.08) !important;
+box-shadow: 0px 8px 24px 3px rgba(84,102,134,0) !important;}
+.IndexPage .DiscussionListItem-info>.item-tags, .UserPage .DiscussionListItem-info>.item-tags {top: 23px !important;}
+.DiscussionListItem {
+position: relative;
+margin-right: 0;
+padding-right: 0;
+padding-left: 0;
+margin-left: 0;
+border-radius: 8px;
+margin-top:15px;}}
+@media (min-width: 768px){.DiscussionListItem:hover {
+background-color: #fff;
+-webkit-box-shadow: 0px 8px 24px 3px rgba(84,102,134,0.1) !important;
+box-shadow: 0px 8px 24px 3px rgba(84,102,134,0.1) !important;}}
+.DiscussionList:not(.DiscussionList–searchResults) .read .DiscussionListItem-title { font-weight: 600; color: #282828; }
+.DiscussionList:not(.DiscussionList–searchResults) .unread .DiscussionListItem-title {color: #e7672e; font-weight: 600; }
+/*Заголовок*/
+.Hero h2 { font-size: 25px; font-weight: 700; color: #282828;}
+.DiscussionHero-title {color: #282828 !important;}
+.Hero { box-shadow: 0 1px 10px 0 rgba(151,158,181,.28)!important; background-color: #fff !important; border-radius: 0 0 8px 8px; margin-bottom: 15px;}
+.DiscussionHero .TagsLabel .TagLabel { color: #4D698E; font-size: 18px !important; }
+.DiscussionHero .RecipientsLabel .RecipientLabel {color: #000;}
+.Hero-subtitle {color: #000;}
+.DiscussionListItem-title {
+font-weight: 700;
+}
+/*Размер шрифта*/
+.Post-body {
+font-size: 16px;
+}
+/*Ответы*/
+.Post.CommentPost {-webkit-box-shadow: 0px 8px 24px 3px rgba(84,102,134,0.08) !important;
+box-shadow: 0px 8px 24px 3px rgba(84,102,134,0.08) !important; border: 1px solid #dbdfe6!important; border-radius: 8px;margin-top: 20px;}
+/*Теги (боковая)*/
+.sideNav .Dropdown--select .Dropdown-menu>li>a {
+font-weight: 700;
+}
+/*Карточка пользователя*/
+.UserDirectoryList .UserCard--directory {
+    background-color: transparent !important;
+    box-shadow: 0px 8px 24px 3px rgba(84,102,134,0.08) !important;
+    margin-bottom: 15px !important;
+    border:1px solid #dbdfe6!important;
+    border-radius: 10px !important;
+}
+.UserCard, .UserCard a {
+    color: #000;
+}
+.darkenBackground {
+    background: #fff;
+    border-radius: 10px !important;
+}
+/*Резюме*/
+.DiscussionListItem-info .item-excerpt {
+    font-size: 14px !important;
+}
+/*Скрубер*/
+.Scrubber-handle { background-color: transparent !important}
+.Scrubber-scrollbar { height: 140px !important;}
+/*Округление*/
+.Button
+{
+	border-radius: 30px!important;
+}
+.Form,.FormControl,.Modal-content
+{
+	border-radius: 30px;
+}
+.Dropdown--split.itemCount1 .Button {
+    border-radius: 30px !important;
+}
+/*Обвернуть*/
+@media (min-width: 767px) {.sideNav .Dropdown--select {
+    background: #fff;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    box-shadow: 0 1px 10px 0 rgba(151, 158, 181, 0.28) !important;
+    border-radius: 8px;
+}}
+.sideNav .Dropdown--select .Dropdown-menu>.Dropdown-separator {
+    border-bottom: 1px solid #d7dfea;
+}
+/*Страница школьных предметов*/
+.TagTiles>li {
+width: 18% !important;
+margin-right: 20px !important;
+border-radius: 8px !important;
+margin-bottom: 20px !important;
+height: 300px !important;
+box-shadow: 0 1px 10px 0 rgba(151, 158, 181, 0.28) !important;
+}
+.TagTile, .TagTile a {
+color: #323f50 !important;
+}
+.TagsPage-content .TagTiles>li.TagTile {
+background-color: #fff !important;
+color: #000;
+}
+.TagTile.colored .TagTile-description {
+color: #667c99 !important;
+}
+.TagTile-name {
+color: #e7672e;
+}
+@media only screen and (max-width: 480px), only screen and (max-device-width: 480px) {
+.TagTiles>li {
+    width: 100% !important;
+    margin-right: 20px !important;
+    border-radius: 8px !important;
+    margin-bottom: 20px !important;
+    height: 300px !important;
+    box-shadow: 0 1px 10px 0 rgba(151,158,181,0.28) !important;
+}}
+/*Публикация ответа, создание вопроса*/
+.Composer {
+    border-radius: 8px 8px 0 0;
+}
+/*Кнопки регистрации и входа*/
+#header-secondary>ul>li.item-logIn>button[title="Войти"]
+{
+	border-color: #1c9963;
+	border-image: initial;
+	border-radius: 30px;
+	border-style: solid;
+	border-width: 2px;
+	color: #1c9963;
+	font-weight: 700;
+	margin-left: 10px;
+	padding: 5px 10px;
+	text-align: center;
+	transition-duration: 1s;
+	width: 100px;
+}
+.Button .Button-label
+{
+	o-transition: margin-right .1s;
+	transition: margin-right .1s;
+	webkit-transition: margin-right .1s;
+}
+#header-secondary>ul>li.item-signUp>button[title="Зарегистрироваться"]
+{
+	border: 2px solid #1f57a0;
+	border-radius: 30px;
+	color: #1f57a0;
+	font-weight: 700;
+	margin-left: 10px;
+	padding: 5px 10px;
+	text-align: center;
+	transition-duration: 1s;
+	width: 175px;
+}
+#header-secondary>ul>li.item-logIn>button[title="Войти"]:hover
+{
+	background: #1C9963!important;
+	border-radius: 30px;
+	color: #fff;
+	margin-left: 10px;
+	padding: 5px 10px;
+	text-align: center;
+	transition: margin-right .1s;
+	width: 100px;
+}
+#header-secondary>ul>li.item-signUp>button[title="Зарегистрироваться"]:hover
+{
+	background: #1f57a0!important;
+	border-radius: 30px;
+	color: #fff;
+	margin-left: 10px;
+	padding: 5px 10px;
+	text-align: center;
+	transition: margin-right .1s;
+	width: 175px;
+}
+/*Отделить описание автора*/
+.PostStream-item[data-index="0"] {
+    border-bottom: 3px solid #E7672E;
+}
+/*Мобильная тема*/
+@media (max-width: 767px) {
+.DiscussionListItem-badges {
+margin-left: 0px;
+position: absolute;
+right: 10px;
+}
+.DiscussionListItem-info .item-excerpt {
+margin-right: -30px !important;
+white-space: normal !important;
+font-size: 14px !important;
+margin-left: -40px !important;
+line-height: 1.5em !important;
+margin-bottom: 25px !important;
+color: #3a3a3a !important;
+display: block !important;
+}
+.DiscussionListItem-content {
+padding-left: 60px;
+padding-right: 50px;
+margin: 10px;
+margin-bottom:15px;
+border-radius: 6px;
+
+box-shadow: 0 1px 10px 0 rgba(151, 158, 181, 0.28) !important;
+background: #fff;
+}
+.DiscussionListItem-info>.item-tags {
+margin-right: 4px;
+opacity: 1;
+position: absolute;
+right: 10px;
+bottom: 12px;
+}
+.DiscussionListItem-title {
+margin-right: 10px;
+
+
+}
+.DiscussionListItem-info {
+overflow: unset !important; 
+}
+.DiscussionListItem-count {
+opacity: 0;
+}
+.DiscussionListItem-count:before {
+font-family: ‘Font Awesome 5 Free’; 
+
+display: inline-block;
+line-height: 1;
+content: ‘\f075’;
+float: left;
+margin-left: -21px;
+margin-top: 3px;
+}
+.DiscussionListItem-info> .item-recipients {
+margin-right: 100px;
+opacity: 1;
+position: absolute;
+right: 10px;
+bottom: 10px;
+}
+.item-discussion-views {
+font-size: 14px;
+bottom: 7px;
+left: 25%;
+position: absolute;
+}
+.item-discussion-views:before {
+display: inline-block;
+font-family: ‘Font Awesome 5 Free’;
+font-size: inherit;
+text-rendering: auto;
+content: ‘\f06e’;
+float: left;
+margin-left: -21px;
+margin-top: 1px;
+}
+.unread .DiscussionListItem-count {
+background: transparent !important;
+color: #E7672E;
+}}
+/*Редактор*/
+.ComposerBody-header h3 {
+    margin: 0;
+    line-height: 1.5em;
+    color: #6b798c;
+}
+@media only screen and (max-width: 480px), only screen and (max-device-width: 480px) {.Composer {
+    border-radius: 8px 8px 8px 8px;
+}}
+/*Значки*/
+.IndexPage-newDiscussion .icon::before
+{
+	content: '\f067';
+}
+.fa-paper-plane:before {
+    content: "\f058";
+}
+.fa-thumbs-up:before
+{
+	color: #ff604b;
+	content: "\f004";
+}
+.fa-reply:before
+{
+	color: #40bd7e;
+	content: "\f0ae";
+}
+/*Отмечено решение для мобильных*/
+@media only screen and (max-width: 480px), only screen and (max-device-width: 480px) {
+.Post--BestAnswer {
+    width: 25px;
+    height: 22px;
+}}
+/*Фиксы*/
+.DiscussionListItem .Dropdown-toggle.Button {
+display: none;
+}
+.no-touch .DiscussionListItem .Dropdown-toggle.Button {
+display: block;
+}
+@media (max-width: 767px) {
+.Composer {
+    bottom: 0 !important;
+}
+}
+.UserDirectoryList .UserCard--directory .Dropdown-menu {
+    z-index: 1020 !important;
+}
+.UserDirectoryList .spinner {
+   display: none;
+   }
+.Post-mentionedBy-preview,
+.PostMention-preview {
+	width: 600px;
+	max-width: 90vw;
+}
+.App:before {
+    -webkit-transform: initial;
+    transform: initial;
+}
+@media (max-width: 767px) {
+.Post-body img {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+}
+/*Хочу ответить*/
+.ReplyPlaceholder {
+    border: 2px dashed #000000;
+}
